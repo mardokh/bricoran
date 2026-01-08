@@ -1,6 +1,5 @@
 import styles from './header.module.css';
 import bricoranLogo from '../../images/bricoran.png'
-import { GiHamburgerMenu } from "react-icons/gi";
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from 'react';
 
