@@ -1,0 +1,49 @@
+{
+  "header": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "banner": {
+    "title": "Your Trusted Handyman",
+    "subTile": "Quality DIY, Painting & Electrical Services",
+    "btnContact": "Contact Now"
+  },
+
+  "myServices": {
+    "title": "Services",
+    "DIY": {
+        "title": "DIY & Repairs",
+        "describe": "From furniture assembly to home repairs, I handle all your DIY needs with precision and care. No job is too small or too big"
+    },
+    "painting": {
+        "title": "Painting",
+        "describe": "Professional interior and exterior painting services. Transform your space with expert color application and finishing touches"
+    },
+    "electrical": {
+        "title": "Electrical Work",
+        "describe": "Licensed electrical services including installations, repairs, and upgrades. Your safety is my top priority."
+    }
+  },
+
+  "aboutMe": {
+    "title": "About me !",
+    "describe": "With years of experience in home improvement and repair services, I bring reliability, quality craftsmanship, and attention to detail to every project. I'm committed to delivering excellent results while respecting your time and budget. Customer satisfaction is my guarantee."
+  },
+
+  "yourMessage": {
+    "title": "Let's Get Started",
+    "firstName": "FirstName *",
+    "lastName": "LastName *",
+    "email": "Email *",
+    "message": "Message *",
+    "btnSend": "Send"
+  },
+  
+  "footer": {
+    "address": "Algeria, Oran"
+  }
+    
+}

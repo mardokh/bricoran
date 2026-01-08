@@ -1,0 +1,64 @@
+.myServices {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.itemContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    gap: 80px;
+    margin: 0 50px;
+}
+
+.title {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 80px;
+}
+
+.item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
+.itemText {
+    width: 70%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.itemText h1 {
+    color: #667FEB;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .itemText {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 350px) {
+    .itemContainer {
+        margin: 10px;
+    }
+}
+

@@ -1,0 +1,79 @@
+.aboutMe {
+    background-color: #F7F7F7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.describeConainter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    text-align: center;
+    line-height: 30px;
+    width: 70%;
+}
+
+.rattingContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.rattingText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 5px;
+    font-size: 25px;
+}
+
+.rattingText p:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+  color: #667FEB;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .text {
+        width: 100%;
+    }
+
+    .describeConainter {
+        padding: 0 20px;
+    }
+
+    .rattingContainer {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .rattingText {
+        font-size: 20px;
+    }
+
+    .rattingText p:nth-child(1) {
+        font-size: 25px;
+    }
+
+    
+
+}

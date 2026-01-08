@@ -1,0 +1,49 @@
+{
+  "header": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "A propos",
+    "contact": "Contact"
+  },
+
+  "banner": {
+    "title": "Votre Homme a tout faire de Confiance",
+    "subTile": "Services de bricolage, de peinture et d'électricité de qualité",
+    "btnContact": "Contactez maintenant"
+  },
+
+  "myServices": {
+    "title": "Services",
+    "DIY": {
+        "title": "Bricolage & Réparations",
+        "describe": "Du montage de meubles aux réparations à domicile, je prends en charge tous vos travaux de bricolage avec précision et soin. Aucun travail n'est trop petit ni trop grand."
+    },
+    "painting": {
+        "title": "Peinture",
+        "describe": "Services professionnels de peinture intérieure et extérieure. Transformez votre espace grâce à une application experte des couleurs et des finitions impeccables."
+    },
+    "electrical": {
+        "title": "Travaux électriques",
+        "describe": "Services d'électricité agréés : installations, réparations et mises à niveau. Votre sécurité est ma priorité absolue."
+    }
+  },
+
+  "aboutMe": {
+    "title": "A propos de moi !",
+    "describe": "Fort d'une longue expérience dans la rénovation et la réparation de maisons, je vous garantis fiabilité, savoir-faire et souci du détail pour chaque projet. Je m'engage à vous fournir un travail impeccable, dans le respect de vos délais et de votre budget. Votre satisfaction est ma priorité."
+  },
+
+  "yourMessage": {
+    "title": "Commençons",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Email",
+    "message": "Message",
+    "btnSend": "Envoyer"
+  },
+  
+  "footer": {
+    "address": "Algerie, Oran"
+  }
+    
+}
