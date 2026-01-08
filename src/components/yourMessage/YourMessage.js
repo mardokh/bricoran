@@ -39,7 +39,7 @@ const YourMessage = () => {
       </Typography>
 
       <TextField
-        label="Full Name"
+        label={t("yourMessage.yourName")}
         name="fullName"
         variant="standard"  // <-- line only
         required
@@ -77,7 +77,7 @@ const YourMessage = () => {
             color: "#000000"
         }}
         >
-        Send
+        <span>{t("yourMessage.btnSend")}</span>
         </Button>
     </Box>
   );

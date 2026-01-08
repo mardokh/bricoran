@@ -15,15 +15,15 @@ const AboutMe = () => {
             <div className={styles.rattingContainer}>
                 <div className={styles.rattingText}>
                     <p>10+</p>
-                    <p>Years Experience</p>
+                    <p>{t("aboutMe.experience")}</p>
                 </div>
                 <div className={styles.rattingText}>
                     <p>500+</p>
-                    <p>Happy Clients</p>
+                    <p>{t("aboutMe.clients")}</p>
                 </div>
                 <div className={styles.rattingText}>
                     <p>100%</p>
-                    <p>Satisfaction Rate</p>
+                    <p>{t("aboutMe.rate")}</p>
                 </div>
             </div>
         </section>

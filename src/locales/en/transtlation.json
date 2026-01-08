@@ -30,15 +30,17 @@
 
   "aboutMe": {
     "title": "About me !",
-    "describe": "With years of experience in home improvement and repair services, I bring reliability, quality craftsmanship, and attention to detail to every project. I'm committed to delivering excellent results while respecting your time and budget. Customer satisfaction is my guarantee."
+    "describe": "With years of experience in home improvement and repair services, I bring reliability, quality craftsmanship, and attention to detail to every project. I'm committed to delivering excellent results while respecting your time and budget. Customer satisfaction is my guarantee.",
+    "experience": "Years Experience",
+    "clients": "Happy Clients",
+    "rate": "Satisfaction Rate"
   },
 
   "yourMessage": {
     "title": "Let's Get Started",
-    "firstName": "FirstName *",
-    "lastName": "LastName *",
-    "email": "Email *",
-    "message": "Message *",
+    "yourName": "Your name",
+    "email": "Email",
+    "message": "Message",
     "btnSend": "Send"
   },
   

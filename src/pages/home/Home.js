@@ -1,4 +1,3 @@
-import styles from './home.module.css'
 import Header from '../../components/header/Header'
 import Banner from '../../components/banner/Banner'
 import MyServices from '../../components/myServices/MyServices'

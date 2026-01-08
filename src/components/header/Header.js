@@ -57,7 +57,7 @@ const Header = () => {
 
             {/* LOGO */}
             <div className={styles.logoContainer}>
-                <img className={styles.logo} src={bricoranLogo} />
+                <img className={styles.logo} src={bricoranLogo} alt='logo'/>
             </div>
 
             {/* NAVIGATION BAR */}
