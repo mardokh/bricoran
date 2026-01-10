@@ -25,12 +25,12 @@ const YourMessage = () => {
       )
       .then(
         () => {
-          alert("Message sent successfully");
+          console.log("Message sent successfully");
           form.current.reset();
         },
         (error) => {
           console.error(error);
-          alert("Failed to send message");
+          console.log("Failed to send message");
         }
       );
   };
