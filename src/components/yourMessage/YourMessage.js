@@ -16,10 +16,6 @@ const YourMessage = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    console.log("All env:", process.env);
-
-    console.log('service id : ', process.env.REACT_APP_SERVICE_ID)
-
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
