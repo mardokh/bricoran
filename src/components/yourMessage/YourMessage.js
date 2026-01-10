@@ -1,29 +1,50 @@
 import styles from './yourMessage.module.css'
 import { useTranslation } from "react-i18next";
 import { Box, TextField, Button, Typography } from "@mui/material";
+import emailjs from "@emailjs/browser";
+import { useRef } from 'react';
 
 
 const YourMessage = () => {
 
-    const { t } = useTranslation();
+  const { t } = useTranslation();
 
-    const handleSubmit = (e) => {
+
+  const form = useRef()
+
+
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    const data = new FormData(e.currentTarget);
-    const formValues = {
-      fullName: data.get("fullName"),
-      email: data.get("email"),
-      message: data.get("message"),
-    };
+    console.log("All env:", process.env);
 
-    console.log(formValues);
+    console.log('service id : ', process.env.REACT_APP_SERVICE_ID)
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          alert("Message sent successfully");
+          form.current.reset();
+        },
+        (error) => {
+          console.error(error);
+          alert("Failed to send message");
+        }
+      );
   };
+
 
   return (
     <Box
       component="form"
-      onSubmit={handleSubmit}
+      ref={form}
+      onSubmit={sendEmail}
       sx={{
         maxWidth: 800,
         mx: "auto",
