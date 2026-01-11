@@ -1,0 +1,25 @@
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 15px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  animation: l5 1s infinite linear alternate;
+}
+@keyframes l5 {
+  0% {
+    box-shadow: 20px 0 #667eea, -20px 0 rgba(102, 126, 234, 0.3);
+    background: #667eea;
+  }
+  33% {
+    box-shadow: 20px 0 #667eea, -20px 0 rgba(102, 126, 234, 0.3);
+    background: rgba(102, 126, 234, 0.3);
+  }
+  66% {
+    box-shadow: 20px 0 rgba(102, 126, 234, 0.3), -20px 0 #667eea;
+    background: rgba(102, 126, 234, 0.3);
+  }
+  100% {
+    box-shadow: 20px 0 rgba(102, 126, 234, 0.3), -20px 0 #667eea;
+    background: #667eea;
+  }
+}
